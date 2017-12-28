@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.bwie.frescolianxi.Main3Activity">
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/simpl3"
+        android:background="@mipmap/ic_launcher"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <Button
+        android:id="@+id/bt_jian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="渐进式加载图片" />
+</LinearLayout>
